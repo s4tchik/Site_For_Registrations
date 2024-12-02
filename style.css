@@ -1,0 +1,66 @@
+fieldset {
+    background: linear-gradient(135deg, rgba(255, 248, 220, 1) 0%, rgba(255, 239, 190, 1) 100%);
+    border: 1px solid rgba(240, 200, 100, 0.8);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1), inset 0px 0px 8px 2px rgba(255, 230, 150, 0.8);
+    border-radius: 12px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 180, 0);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+input:not([type=radio]) {
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid rgba(240, 200, 100, 0.8);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 240, 0.9);
+}
+
+input[type=radio] {
+    margin-top: 10px;
+}
+
+#reg {
+    background: linear-gradient(90deg, rgb(255, 190, 0) 0%, rgb(255, 160, 0) 100%);
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-top: 30px;
+}
+
+#reg:hover {
+    background: linear-gradient(90deg, rgb(255, 160, 0) 0%, rgb(255, 190, 0) 100%);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+span {
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.gender, .country, .login, .email, .pass, .retry {
+    margin-top: 10px;
+}

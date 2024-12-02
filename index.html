@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1>Регистрация</h1>
+    <div class="login">
+        Логин
+        <div>
+            <input type="text" placeholder="Логин" required>
+        </div>
+    </div>
+    <div class="email"> 
+        Email
+        <div>
+            <input type="email" placeholder="EMail" required>
+        </div>
+    </div>    
+    <div class="pass">    
+        Пароль
+        <div>
+            <input type="password" placeholder="Введите пароль" required pattern="^([-_a-zA-Z0-9]){5,30}$">
+        </div>
+    </div>    
+    <div class="retry">
+        Повтор пароля
+        <div>
+            <input type="password" placeholder="Повторите пароль" required pattern="^([-_a-zA-Z0-9]){5,30}$">
+        </div>
+    </div>    
+    <div class="gender">    
+        <div>
+            Выберите пол
+        </div>
+        <div>Мужской
+            <input type="radio" name="check" value="man">
+        </div>
+        <div>Женский
+            <input type="radio" name="check" value="woman">
+        </div>
+        <div>
+    </div>        
+            <select class="country">
+                <option disabled selected value="placeholder">Выберите страну</option>
+                <option value="Russia">Россия</option>
+                <option value="Omerika">Омерика</option>
+                <option value="Chackchack">Ченеченец</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit" value="Вход" id="reg">Регистрация</button>
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
